@@ -14,12 +14,12 @@ export let ApiKey: IApiKey = {
 }
 
 export const ApiSettingsWeather: IApiSettings = {
-    url: "https://api.openweathermap.org/data/2.5/weather",
+    url: "//api.openweathermap.org/data/2.5/weather",
     apiKey: ApiKey,
 };
 
 export const ApiSettingsGeocode: IApiSettings = {
-    url: "http://api.openweathermap.org/geo/1.0/direct",
+    url: "//api.openweathermap.org/geo/1.0/direct",
     limit: 10,
     apiKey: ApiKey
 };
