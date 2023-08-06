@@ -12,16 +12,11 @@ import { Actions, actions } from "./actions";
 
 import { SaveProvider } from "./plugins/SaveProvider";
 
-import { savedLocations, SavedLocationsStore } from "./modules/savedLocations";
-
 export const store = createStore({
 	state,
 	getters,
 	mutations,
 	actions,
-	modules: {
-		savedLocations,
-	},
 
 	plugins: [SaveProvider],
 });

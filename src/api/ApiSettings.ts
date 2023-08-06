@@ -8,8 +8,9 @@ export interface IApiSettings {
     limit?: number;
 }
 
-const ApiKey: IApiKey = {
-    key: "1a2e9ee28db3dd66fa66e6eb5a5e3f95",
+export let ApiKey: IApiKey = {
+    key: ""
+    //key: "1a2e9ee28db3dd66fa66e6eb5a5e3f95",
 }
 
 export const ApiSettingsWeather: IApiSettings = {

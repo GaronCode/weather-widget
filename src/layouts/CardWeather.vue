@@ -52,7 +52,7 @@ export default defineComponent({
     }
     &__temperature {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
         white-space: nowrap;
     }
     &__additional {

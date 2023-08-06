@@ -1,4 +1,5 @@
-
 import createPersistedState from "vuex-persistedstate";
 
-export const SaveProvider = createPersistedState()
+export const SaveProvider = createPersistedState({
+	paths: ["savedList"],
+});
