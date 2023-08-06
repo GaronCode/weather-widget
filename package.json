@@ -7,9 +7,15 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "axios": "^1.4.0",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
-    "vuex": "^4.0.0"
+    "vue3-sortablejs": "^1.0.7",
+    "vuedraggable": "^4.1.0",
+    "vuetify": "^3.3.5",
+    "vuex": "^4.0.0",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
