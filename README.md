@@ -1,5 +1,7 @@
 # weather-widget
 
+## [Live template](https://garoncode.github.io/weather-widget/)
+
 ## Project setup
 ```
 npm install
